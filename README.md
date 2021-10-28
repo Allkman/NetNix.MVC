@@ -10,4 +10,6 @@ MovieService.cs(implementation class) holds all methods to consume NetNix API. A
 - Ex: DataBase EntityModel/
 - DataTransferModel 
 - ViewModel. 
-###Good practices requires not to use Validation Attributes on EntityModels esspecially. So such package comes in with great solution to this issue.
+
+
+Good practices requires not to use Validation Attributes on EntityModels esspecially. So such package comes in with great solution to this issue.
