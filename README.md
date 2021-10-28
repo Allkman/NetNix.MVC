@@ -1,5 +1,5 @@
 # NetNix.MVC
-<img src="ezgif.com-gif-maker.gif" width="50%">
+<img src="ezgif.com-gif-maker.gif" width="100%">
 Application created using ASP.NET Core (Model-View-Controller) template, provided by Visual Studio 2019:
 
 <img src="pic1.png" width="50%">
