@@ -1,4 +1,5 @@
 # NetNix.MVC
 Application created
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/pic1.png)
+![GitHub Logo](/pic2.png)
 Format: ![Alt Text](url)
