@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using NetNix.MVC.Models;
 using NetNix.MVC.Services;
 using System;
@@ -12,12 +11,10 @@ namespace NetNix.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
         private readonly IMovieService _movieService;
 
-        public HomeController(ILogger<HomeController> logger, IMovieService movieService)
+        public HomeController(IMovieService movieService)
         {
-            _logger = logger;
             _movieService = movieService;
         }
         [HttpGet]

@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using NetNix.MVC.AutoMapper;
 using NetNix.MVC.Services;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -27,7 +26,6 @@ namespace NetNix.MVC
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient<IMovieService, MovieService>();
-            services.ConfigureAutomapper();
             services.AddControllersWithViews();
             services.AddMvc(setup =>
             {
