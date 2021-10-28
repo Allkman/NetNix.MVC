@@ -1,6 +1,5 @@
 # NetNix.MVC
-Application created
-![GitHub Logo](/pic1.png s=200)
-![GitHub Logo](/pic2.png s=200)
-Format: ![Alt Text](url)
+Application created:
+
+<img src="pic1.png" width="50%">
 <img src="pic2.png" width="50%">
